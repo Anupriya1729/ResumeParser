@@ -1,0 +1,35 @@
+{% extends 'app1/base.html' %}
+
+
+{%block content%}
+<centre>
+<div position='center'>
+<div class="frame">
+    <div class="center">
+            
+            <h1 class="title">Drop file to upload</h1>
+
+        <form method="POST" enctype="multipart/form-data" action="/uploadnow/">
+        {% csrf_token %}
+        <br><br>
+        <div class="dropzone">
+            <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+            <input type="file" class="upload-input" name="document" />
+        </div>
+        <centre><button type="submit">Upload</button></centre>
+        </form>
+    <div>
+        {% if uploaded_file_url %}
+        <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+        {% endif %}  
+    </div>
+    {% if csvurl %}
+        <p><a href="{%url 'app1-success' %}">Click here to download the csv file</a></p>
+    {% endif %}
+        <h5>Click the dotted area above or drop your resume in here.
+            English resumes in .pdf or .docx format only.</h5>
+    </div>
+</div>
+</div>
+</centre>
+{%endblock content%}

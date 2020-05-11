@@ -1,0 +1,453 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Welcome</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="{%static 'app1/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{%static 'app1/css/font-awesome.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app1/css/templatemo-breezed.css' %}">
+
+    <link rel="stylesheet" href="{%static 'app1/css/owl-carousel.css'%}">
+
+    <link rel="stylesheet" href="{%static 'app1/css/lightbox.css' %}">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="{%url 'app1-home' %}" class="logo">.BRAINCHANGE</a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">Drop Down</a>
+                                <ul>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> 
+                            <div class="search-icon">
+                                <a href="#search"><i class="fa fa-search"></i></a>
+                            </div>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    <!-- ***** Search Area ***** -->
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form id="contact" action="#" method="get">
+            <fieldset>
+                <input type="search" name="q" placeholder="SEARCH KEYWORD(s)" aria-label="Search through site content">
+            </fieldset>
+            <fieldset>
+                <button type="submit" class="main-button">Search</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="{%static 'app1/images/slide-02.jpg'%}" alt="">
+                <div class="text-content">
+                  <h3>Welcome To Brain Change</h3>
+                  <h5>Upload your resume to get a database out of it or click on learn more to know how it works</h5>
+                  <a href="#" class="main-stroked-button">Learn More</a>
+                  <a href="{%url 'app1-uploadpage'%}" class="main-filled-button" target="_blank">Upload Resume</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="{%static 'app1/images/slide-01.jpg'%}" alt="">
+                <div class="text-content">
+                  <h3>Get the best out of it</h3>
+                  <h5></h5>
+                  <a href="#" class="main-stroked-button">Read More</a>
+                  <a href="{%url 'app1-uploadpage'%}" class="main-filled-button" target="_blank">Upload Resume</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item">
+            <div class="img-fill">
+                <img src="{%static 'app1/images/slide-03.jpg'%}" alt="">
+                <div class="text-content">
+                  <h3>High Performance</h3>
+                  <h5>Robust and Speedy</h5>
+                  <a href="#" class="main-stroked-button">Learn More</a>
+                  <a href="{%url 'app1-uploadpage'%}" class="main-filled-button" target="_blank">Upload Resume</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+        </div>
+    </div>
+    <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>About Us</h6>
+                            <h2>We work with top brands and startups</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="{%static 'app1/images/service-item-01.png'%}" alt="">
+                                    <h4>Top Notch</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="{%static 'app1/images/service-item-01.png'%}" alt="">
+                                    <h4>Robust</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="{%static 'app1/images/contact-info-03.png'%}" alt="">
+                                    <h4>Reliable</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="{%static 'app1/images/contact-info-03.png'%}" alt="">
+                                    <h4>Up-to-date</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <a href="#" class="main-button-icon">
+                                    Learn More <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p>Brain Change Resume Reader is provided by <a rel="nofollow noopener" href="https://www.brainacademy.com/" target="_blank">Brain Academy</a> for absolutely free of charge. You can download, edit and use the output for analysis and shortlisting process of your firm. 
+                        <br><br>When you join our Brain Academy, you can choose to explore our content freely... or follow the path we have designed specially for you, so you can get the most out of your experience with us. Thank you.
+                      <br><br>This is a Demo app. Do you like it? You can feel free to <a rel="nofollow noopener" href="https://www.linkedin.com/in/anupriyanishad/" target="_blank">talk to the developer</a> if you have anything.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="{%static 'app1/images/features-icon-1.png'%}" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Initial Work</h4>
+                            <p>Website Creation with interactive UI</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="{%static 'app1/images/features-icon-1.png'%}" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Master Planning</h4>
+                            <p>Help out our users to ease their task.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="{%static 'app1/images/features-icon-1.png'%}" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Smooth Execution</h4>
+                            <p>Smooth functioning projects.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="section-heading">
+                        <h6>Send me an Email</h6>
+                        <h2>TO GET AN APP FOR YOUR FIRM</h2>
+                    </div>
+                    <div class="subscribe-content">
+                        
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <!-- ***** Projects Area Starts ***** -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="section-heading">
+                    <h6>Our Projects</h6>
+                    <h2>Some of our latest projects</h2>
+                </div>
+                <div class="filters">
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".des">Web Design</li>
+                        <li data-filter=".dev">Web Development</li>
+                        <li data-filter=".gra">Graphics</li>
+                        <li data-filter=".tsh">Artworks</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="filters-content">
+                    <div class="row grid">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                          <div class="item">
+                            <a href="{%static 'app1/images/project-big-item-01.jpg'%}" data-lightbox="image-1" data-title="Our Projects"><img src="{%static 'app1/images/project-item-01.jpg'%}" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
+                          <div class="item">
+                            <a href="{%static 'app1/images/project-big-item-02.jpg'%}" data-lightbox="image-1" data-title="Our Projects"><img src="{%static 'app1/images/project-item-02.jpg'%}" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
+                          <div class="item">
+                            <a href="{%static 'app1/images/project-big-item-03.jpg'%}" data-lightbox="image-1" data-title="Our Projects"><img src="{%static 'app1/images/project-item-03.jpg'%}" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all tsh">
+                          <div class="item">
+                            <a href="{%static 'app1/images/project-big-item-04.jpg'%}" data-lightbox="image-1" data-title="Our Projects"><img src="{%static 'app1/images/project-item-04.jpg'%}" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
+                          <div class="item">
+                            <a href="{%static 'app1/images/project-big-item-05.jpg'%}" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-05.jpg" alt=""></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des'%}">
+                          <div class="item">
+                            <a href="{%static 'app1/images/project-big-item-06.jpg'%}" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-06.jpg" alt=""></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Projects Area Ends ***** -->
+
+    
+    <!-- ***** Testimonials Ends ***** -->
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contact Us</h6>
+                            <h2>Feel free to keep in touch with us!</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="{%static 'app1/images/contact-info-01.png'%}" alt="">+91-7081879052</li>
+                            <li><img src="{%static 'app1/images/contact-info-02.png'%}" alt="">anupriya91998@gmail.com</li>
+                            <li><img src="{%static 'app1/images/contact-info-03.png'%}" alt=""><a href="https://www.linkedin.com/in/anupriyanishad/">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Your Email *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="Subject">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Send Message Now <i class="fa fa-arrow-right"></i></button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                   
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="right-text-content">
+                            <ul class="social-icons">
+                                <li><p>Follow Us</p></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-twitter"></i></a></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a rel="nofollow" href="https://fb.com/templatemo"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- jQuery -->
+    <script src="{%static 'app1/js/jquery-2.1.0.min.js'%}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{%static 'app1/js/popper.js'%}"></script>
+    <script src="{%static 'app1/js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugins -->
+    <script src="{%static 'app1/js/owl-carousel.js'%}"></script>
+    <script src="{%static 'app1/js/scrollreveal.min.js'%}"></script>
+    <script src="{%static 'app1/js/waypoints.min.js'%}"></script>
+    <script src="{%static 'app1/js/jquery.counterup.min.js'%}"></script>
+    <script src="{%static 'app1/js/imgfix.min.js'%}"></script> 
+    <script src="{%static 'app1/js/slick.js'%}"></script> 
+    <script src="{%static 'app1/js/lightbox.js'%}"></script> 
+    <script src="{%static 'app1/js/isotope.js'%}"></script> 
+    
+    <!-- Global Init -->
+    <script src="{%static 'app1/js/custom.js'%}"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>
