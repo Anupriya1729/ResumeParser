@@ -1,4 +1,4 @@
-# Resume-Parser (Using Django)
+# Resume-Reader (Using Django)
 This is a Web-based Resume Reader Application program. 
 The program will take Word or PDF document as an input, read it into a local database, and give the following results:
 - Name, Email address and Phone number of the candidate  
