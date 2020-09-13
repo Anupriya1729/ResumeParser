@@ -7,7 +7,7 @@ The program will take Word or PDF document as an input, read it into a local dat
 
 After running the application, it should give an option to download the database in .csv file. 
 
-Explanatory Word Document
+Explanatory Document
 https://drive.google.com/file/d/1hMLKw7NfM7dATq0oaVeQzCF1V4nwNO6c/view?usp=sharing
 
 Demo Video
