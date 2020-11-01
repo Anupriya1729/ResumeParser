@@ -1,9 +1,12 @@
-# Resume Parser named "PARSEIT" 
+<h2>RESUME PARSER named "PARSEIT"</h2>
+<h3>
 <pre>
-To see a 1 min Demo video
+For Demo of the project:
 <a href="https://drive.google.com/file/d/13AkZ3zfdjUtgDi20kPXIAmGAVGG3PB_Y/view?usp=sharing">CLICK HERE</a>
 </pre>
-PARSEIT" is an application which can be used by firms to parse the applicant's resume (unstructured) in order to obtain a CSV file(structured) containing only the required information.
+ </h3>
+<br>
+PARSEIT" is an application which can be used by the firms to parse the applicant's resume (unstructured) in order to obtain a CSV file(structured) containing only the required information.
 <pre>
 Tech Used-
 Django Framework, Python, Regex, File handling
@@ -14,15 +17,12 @@ It takes resume in PDF document as an input and gives you the following results:
 - Email address
 - Phone number 
 - LinkedIn profile url  
-- Total No. of Text Lines + Total No. of Text characters present in the document.
+- Total No. of Text Lines + Total No. of Text characters present in the document.<br>
 After running the application, it gives you an option to download the .csv file
 <pre>
 Workflow -
 pdf file --> text file --> details extracted using pattern matching --> write the obtain details in a CSV file
 </pre>
-<!-- Explanatory Document
-https://drive.google.com/file/d/1hMLKw7NfM7dATq0oaVeQzCF1V4nwNO6c/view?usp=sharing
--->
 
 <pre>
 Resume_Parser (contains all project files)
