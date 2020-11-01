@@ -1,0 +1,42 @@
+{% extends 'app/base.html' %}
+
+
+{%block content%}
+   <div id="outPopUp">
+<div class="wrapper">
+  <div class="container">
+   
+<div position='center'>
+<div class="frame">
+    <div class="center">
+            
+            <h1 class="title">Upload your file here</h1>
+
+        <form method="POST" enctype="multipart/form-data" action="/upload/">
+        {% csrf_token %}
+        <br><br>
+        <div class="dropzone">
+            <img src="http://100dayscss.com/codepen/upload.svg" class="upload-icon" />
+            <input id="id_docfile" type="file" class="upload-input" name="document" />
+            
+        </div>
+        <button type="submit" >Upload</button>
+        </form>
+    <div>
+        {% if uploaded_file_url %}
+        <p>File uploaded at: <br><a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+        {% endif %}  
+    </div>
+    <br>
+    {% if csvurl %}
+        <p><a href="{%url 'app-success' %}">Click here to download the csv file</a></p>
+    {% endif %}
+        <h5>Click on choose file button and drop your resume in here.
+            Kindly upload English resumes in .pdf format only</h5>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+{%endblock content%}

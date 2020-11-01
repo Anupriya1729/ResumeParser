@@ -1,0 +1,115 @@
+{%extends 'app/base.html'%}
+ {%load static%}
+  <!-- ======= Intro Section ======= -->
+  {% block content%}
+  <section id="intro">
+
+    <div class="intro-content">
+      <h2 style="font-family:Garamond;">Make your work<br>EASY!</h2>
+      <div>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="{%url 'app-uploadpage'%}" class="btn-projects scrollto">Use PARSEIT</a>
+      </div>
+    </div>
+
+    <div id="intro-carousel" class="owl-carousel">
+    <div class="item" style="background-image: 'static/app/img/intro-carousel/1.jpg'"></div>
+    <div class="item" style="background-image: 'static/app/img/intro-carousel/2.jpg'"></div>
+    <div class="item" style="background-image: 'static/app/img/intro-carousel/3.jpg'"></div>
+      <div class="item" style="background-image: 'static/app/img/intro-carousel/4.jpg'"></div>
+      <div class="item" style="background-image:'static/app/img/intro-carousel/5.jpg'"></div>
+    </div>
+
+  </section><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 about-img">
+            <img src="{% static 'app/img/about-img.png'%}" alt="">
+          </div>
+
+          <div class="col-lg-6 content">
+            <h3>ParseIT is a Resume Parser. Parsing is the process that allows you to extract information from online resumes and store it into your local database. It is simply the conversion of free-form of resumes such as pdf into detailed structured data. It helps to parse data from your resumes in bulk and find appropriate candidates using semantic search. It also helps to create a potential database. A good resumes parser saves time & money by accurately parsing all the relevant fields.</h3>
+
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Upload your Resume in pdf format</li>
+              <li><i class="ion-android-checkmark-circle"></i> We will generate a CSV for you</li>
+              <li><i class="ion-android-checkmark-circle"></i> CSV will contain Name, Contact, Email, LinkedIn account</li>
+            </ul>
+
+          </div>      
+         
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Survey Section ======= -->
+<hr>
+<br>
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>TO USE PARSEIT</h2>
+        </div>
+      
+      <div class="container mb-4">
+        
+      <ul>
+        <li><i class="ion-android-checkmark-circle"></i> Upload PDF only</li>
+        <li><i class="ion-android-checkmark-circle"></i> On successful completion you will be directed to the download page; there you can download the .CSV file.</li>
+        <li><i class="ion-android-checkmark-circle"></i> <a href="{%url 'app-uploadpage'%}">CLICK HERE</a><br>to get started</li>
+      </ul>
+      </div>
+      </div>
+    </section>
+    <hr>
+      <!---->
+    <!--End survey section-->
+    
+
+  <!--contact section-->
+    <section id="contact" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p></p>
+        </div>
+      
+        <div class="row contact-info">
+      
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>Lucknow | India</address>
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+91-8737916905">call</a></p>
+            </div>
+          </div>
+      
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto: annupriya91998@gmail.com">click</a></p>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+{%endblock content%}
