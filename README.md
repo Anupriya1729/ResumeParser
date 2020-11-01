@@ -2,7 +2,7 @@
 <h3>
 <pre>
 For Demo of the project:
-<a href="https://drive.google.com/file/d/13AkZ3zfdjUtgDi20kPXIAmGAVGG3PB_Y/view?usp=sharing">CLICK HERE</a>
+<a href="https://drive.google.com/file/d/13AkZ3zfdjUtgDi20kPXIAmGAVGG3PB_Y/view?usp=sharing" target="_blank">CLICK HERE</a>
 </pre>
  </h3>
 <br>
