@@ -22,7 +22,7 @@ https://drive.google.com/file/d/1hMLKw7NfM7dATq0oaVeQzCF1V4nwNO6c/view?usp=shari
 
 <pre>
 Resume_Parser (contains all project files)
-|_   app(app name) - _pycache_ , migrations ,
+|_   app (app name) - _pycache_ , migrations ,
 |    static (contains all static files like .css and .js files) ,
 |    templates (contains .html files) ,
 |    url(contains all paths),
@@ -36,7 +36,7 @@ Resume_Parser (contains all project files)
 |    1. txtfiles this folder stored files after they are converted to .txt form by convertor.py
 |    2. csvfiles contains csv files that user can download which are sent to this path by createcsv.py
 |
-|_   Resume_Reader – contains other project files most imp one being settings.py
+|_   Resume_Parser – contains other project files most imp one being settings.py
 |
 |_   manage.py
 </pre>
