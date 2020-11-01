@@ -21,7 +21,7 @@ It takes resume in PDF document as an input and gives you the following results:
 After running the application, it gives you an option to download the .csv file
 <pre>
 Workflow -
-pdf file --> text file --> details extracted using pattern matching --> write the obtain details in a CSV file
+pdf file --> text file --> extract details --> writing details in a CSV file
 </pre>
 
 <pre>
