@@ -1,5 +1,5 @@
 # Resume Parser named "PARSEIT" (<a href="https://drive.google.com/file/d/13AkZ3zfdjUtgDi20kPXIAmGAVGG3PB_Y/view?usp=sharing"><small>Demo Video</small></a>)
-"PARSEIT" is a Resume Parsing webapp which can be used by firms to parse the applicant's resume (unstructured) in order to obtain a CSV file(structured) containing only the required information.
+"PARSEIT" is an application which can be used by firms to parse the applicant's resume (unstructured) in order to obtain a CSV file(structured) containing only the required information.
 <pre>
 Tech Used-
 Django Framework, Python, Regex, File handling
