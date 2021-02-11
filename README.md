@@ -45,3 +45,5 @@ Resume_Parser (contains all project files)
 |_   manage.py
 </pre>
  
+ DB Connection is in process. UI can be viewed on: http://parseit.pythonanywhere.com/
+ 
